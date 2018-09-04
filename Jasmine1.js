@@ -34,4 +34,20 @@ describe("Suite for validation Search functionality", function(){
 
         expect(a).toBeLessThan(101);
     });
+
+    it("Verify Search with correct item code", function(){
+
+        var test1 = {
+            K1: "val1",
+            K2: "val2"
+        };
+
+        var test2 = {
+            K1: "val1",
+            K2: "val2"
+        };
+
+        expect(test1).toEqual(test2);
+    });
+
 });
